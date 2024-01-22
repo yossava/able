@@ -84,6 +84,9 @@ header#navbar.navbar-white .container {
   background: white;
   padding: 0 10px;
 }
+.MuiFormControl-root.mb-5 {
+  margin-bottom: 1.25rem !important;
+}
 /* mui override end */
 @layer utilities {
   .text-balance {
