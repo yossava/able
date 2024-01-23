@@ -13,9 +13,9 @@ export default function NavbarAlt() {
           <div className="flex items-center">
             <a className="lg:mr-20 " href="/">
               <Image
-                width={150}
+                width={130}
                 height={24}
-                src="/main-logo.png"
+                src="/able-logo.png"
                 alt="Logo"
               ></Image>
             </a>
