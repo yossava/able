@@ -10,22 +10,22 @@ export default function Footer() {
               </div>
               <ul className="leading-8">
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="#" className="hover:text-white">
                     About Us
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="#" className="hover:text-white">
                     Terms &amp; Conditions
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="#" className="hover:text-white">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="#" className="hover:text-white">
                     Contact Us
                   </a>
                 </li>
@@ -37,22 +37,22 @@ export default function Footer() {
               </div>
               <ul className="leading-8">
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="#" className="hover:text-white">
                     Dollar Rallies on Hawkish Fed
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="#" className="hover:text-white">
                     Pound Falls to New Lows on Brexit
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="#" className="hover:text-white">
                     Yen Gains as Risk Aversion Rises
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="#" className="hover:text-white">
                     Aussie Dollar Slides After RBA Signals Cuts
                   </a>
                 </li>

@@ -1,4 +1,4 @@
-import { Button, TextField } from "@mui/material";
+import { TextField } from "@mui/material";
 import Image from "next/image";
 import Title from "./Title";
 export default function Contact() {
@@ -32,7 +32,7 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div className="ml-4 mb-4">
-                  <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
+                  <h3 className="mb-2 text-lg font-medium leading-6 text-gray-600 dark:text-white">
                     PT ABLE EXCHANGE
                   </h3>
                   <p className="text-gray-600 dark:text-slate-400">
@@ -41,7 +41,7 @@ export default function Contact() {
                     Jakarta Utara, Provinsi DKI Jakarta
                   </p>
 
-                  <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white mt-4">
+                  <h3 className="mb-2 text-lg font-medium leading-6 text-gray-600 dark:text-white mt-4">
                     Contact
                   </h3>
                   <p className="text-gray-600 dark:text-slate-400">
@@ -50,7 +50,7 @@ export default function Contact() {
                   <p className="text-gray-600 dark:text-slate-400">
                     Mail: admin@gmail.com
                   </p>
-                  <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white mt-4">
+                  <h3 className="mb-2 text-lg font-medium leading-6 text-gray-600 dark:text-white mt-4">
                     Working hours
                   </h3>
                   <p className="text-gray-600 dark:text-slate-400">
@@ -80,7 +80,7 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div className="ml-4 mb-4">
-                  <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
+                  <h3 className="mb-2 text-lg font-medium leading-6 text-gray-600 dark:text-white">
                     PT BAILI MONEY CHANGER
                   </h3>
                   <p className="text-gray-600 dark:text-slate-400">
@@ -89,7 +89,7 @@ export default function Contact() {
                     Jakarta Utara, Provinsi DKI Jakarta
                   </p>
 
-                  <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white mt-4">
+                  <h3 className="mb-2 text-lg font-medium leading-6 text-gray-600 dark:text-white mt-4">
                     Contact
                   </h3>
                   <p className="text-gray-600 dark:text-slate-400">
@@ -98,7 +98,7 @@ export default function Contact() {
                   <p className="text-gray-600 dark:text-slate-400">
                     Mail: admin@gmail.com
                   </p>
-                  <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white mt-4">
+                  <h3 className="mb-2 text-lg font-medium leading-6 text-gray-600 dark:text-white mt-4">
                     Working hours
                   </h3>
                   <p className="text-gray-600 dark:text-slate-400">
@@ -120,7 +120,7 @@ export default function Contact() {
                 height={300}
                 alt="ask"
               />
-              <p className="text-lg font-semibold text-gray-700">
+              <p className="text-lg font-semibold text-gray-600">
                 Want to ask a question?
               </p>
             </div>
@@ -145,16 +145,14 @@ export default function Contact() {
                   rows={4}
                   className="mb-5"
                 />
-                <Button
-                  className="p-3 bg-secondary"
-                  fullWidth
-                  disableElevation
-                  type="button"
-                  variant="contained"
-                  color="primary"
-                >
-                  SEND MESSAGE
-                </Button>
+                <div className="">
+                  <button
+                    type="button"
+                    className="bg-secondary p-4 rounded text-white flex justify-center space-x-2 items-center w-full md:w-[200px]"
+                  >
+                    <span>SEND MESSAGE</span>
+                  </button>
+                </div>
               </form>
             </div>
           </div>
