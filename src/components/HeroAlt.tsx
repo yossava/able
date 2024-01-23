@@ -5,7 +5,7 @@ function FadeInWhenVisible({ children }: { children: React.ReactNode }) {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      transition={{ duration: 0.7 }}
+      transition={{ duration: 0.3 }}
       variants={{
         visible: { opacity: 1, y: 0 },
         hidden: { opacity: 0, y: 40 },
