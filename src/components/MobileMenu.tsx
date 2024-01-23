@@ -18,33 +18,33 @@ export default function MobileMenu() {
         <nav className="">
           <a
             href="#"
-            className="block py-5 border-b border-t border-gray-100 px-4 text-gray-600"
+            className="block py-5 border-b border-t border-gray-100 px-4 text-gray-700"
           >
             Home
           </a>
           <a
             href="#"
-            className="block py-5 border-b border-gray-100 px-4 text-gray-600"
+            className="block py-5 border-b border-gray-100 px-4 text-gray-700"
           >
             Rates
           </a>
           <a
             href="#"
-            className="block py-5 border-b border-gray-100 px-4 text-gray-600"
+            className="block py-5 border-b border-gray-100 px-4 text-gray-700"
           >
             Contract
           </a>
           <a
             href="#"
-            className="block py-5 border-b border-gray-100 px-4 text-gray-600"
+            className="block py-5 border-b border-gray-100 px-4 text-gray-700"
           >
             News
           </a>
           <div className="p-3 flex flex-col space-y-3 mt-10">
-            <button className="bg-tertiary p-3 w-full rounded text-gray-600">
+            <button className="bg-tertiary p-3 w-full rounded text-gray-700">
               REGISTER
             </button>
-            <button className="border-tertiary border p-3 w-full rounded text-gray-600">
+            <button className="border-tertiary border p-3 w-full rounded text-gray-700">
               LOGIN
             </button>
           </div>

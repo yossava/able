@@ -1,5 +1,5 @@
 "use client";
-import { Button, TextField } from "@mui/material";
+import { TextField } from "@mui/material";
 import dynamic from "next/dynamic";
 import { useId } from "react";
 import { StylesConfig } from "react-select";
@@ -148,16 +148,12 @@ export default function RateForm() {
         className="mb-5"
       />
 
-      <Button
-        className="p-3 bg-secondary text-white hover:bg-primary"
-        fullWidth
-        disableElevation
+      <button
         type="button"
-        variant="contained"
-        color="inherit"
+        className="bg-secondary p-4 rounded text-white flex justify-center space-x-2 items-center w-full"
       >
-        Get Exchange Now
-      </Button>
+        <span>Get Exchange Now</span>
+      </button>
       <p className="text-gray-500 text-xs mt-5">
         * In some instances a third-party intermediary or bank may deduct a fee
         from the value of your transfer. This fee may vary and we receives no
