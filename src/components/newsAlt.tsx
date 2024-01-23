@@ -1,143 +1,105 @@
+import Title from "./Title";
+
 export default function NewsAlt() {
   return (
-    <div className="container mx-auto">
-      <p className="font-heading text-3xl leading-8 font-semibold tracking-tight text-gray-900 sm:text-4xl text-center">
-        Latest News
-      </p>
-      <ul className="grid grid-cols-6 gap-5 mt-10">
-        <li className="mb-6 bg-white p-3 shadow-lg rounded-lg">
+    <div className="container mx-auto w-full overflow-hidden">
+      <Title title="Latest News" />
+      <ul className="grid grid-cols-1 gap-5 mt-10 sm:grid-cols-2 lg:grid-cols-4 p-3">
+        <li className="mb-6 bg-gray-100 rounded-md hover:shadow-lg transition-all">
           <a href="#">
             <img
-              src="/placeholder.png"
-              className="w-full mb-4 rounded-lg shadow-none transition transition-shadow duration-500 ease-in-out group-hover:shadow-lg"
+              src="https://www.westernunion.com/blog/wp-content/uploads/2023/12/Popular-Places-for-Canadians-to-Travel-During-the-Winter.jpg"
+              className="w-full rounded-tl-md rounded-tr-md"
               alt="news"
             />
-            <div className="flex items-center mb-3">
-              <span className="inline-flex items-center px-3 py-0.5 rounded-full text-xs font-bold leading-5 text-white font-display mr-2 capitalize bg-red-500">
-                News
-              </span>
-              <p className="font-mono text-xs font-normal opacity-75 text-black">
-                Sept 28th, 2024
-              </p>
-            </div>
-            <p className="font-display max-w-sm text-lg leading-tight">
-              <span className="link-underline link-underline-black text-gray-800">
-                New Rate Updated
+            <p className="text-md p-3">
+              <span className="font-semibold text-gray-700">
+                Popular Places for Canadians to Travel During the Winter
               </span>
             </p>
+            <div className="mb-3 p-3 text-xs">
+              <p className="font-semibold text-gray-600">Author Name</p>
+              <p className="text-gray-600">Sept 28th, 2024</p>
+            </div>
           </a>
         </li>
-        <li className="mb-6 bg-white p-3 shadow-lg rounded-lg">
+        <li className="mb-6 bg-gray-100 rounded-md hover:shadow-lg transition-all">
           <a href="#">
             <img
-              src="/placeholder.png"
-              className="w-full mb-4 rounded-lg shadow-none transition transition-shadow duration-500 ease-in-out group-hover:shadow-lg"
+              src="https://www.westernunion.com/blog/wp-content/uploads/2023/12/Popular-Places-for-Canadians-to-Travel-During-the-Winter.jpg"
+              className="w-full rounded-tl-md rounded-tr-md"
               alt="news"
             />
-            <div className="flex items-center mb-3">
-              <span className="inline-flex items-center px-3 py-0.5 rounded-full text-xs font-bold leading-5 text-white font-display mr-2 capitalize bg-red-500">
-                News
-              </span>
-              <p className="font-mono text-xs font-normal opacity-75 text-black">
-                Sept 28th, 2024
-              </p>
-            </div>
-            <p className="font-display max-w-sm text-lg leading-tight">
-              <span className="link-underline link-underline-black text-gray-800">
-                New Rate Updated
+            <p className="text-md p-3">
+              <span className="font-semibold text-gray-700">
+                Popular Places for Canadians to Travel During the Winter
               </span>
             </p>
+            <div className="mb-3 p-3 text-xs">
+              <p className="font-semibold text-gray-600">Author Name</p>
+              <p className="text-gray-600">Sept 28th, 2024</p>
+            </div>
           </a>
         </li>
-        <li className="mb-6 bg-white p-3 shadow-lg rounded-lg">
+        <li className="mb-6 bg-gray-100 rounded-md hover:shadow-lg transition-all">
           <a href="#">
             <img
-              src="/placeholder.png"
-              className="w-full mb-4 rounded-lg shadow-none transition transition-shadow duration-500 ease-in-out group-hover:shadow-lg"
+              src="https://www.westernunion.com/blog/wp-content/uploads/2023/12/Popular-Places-for-Canadians-to-Travel-During-the-Winter.jpg"
+              className="w-full rounded-tl-md rounded-tr-md"
               alt="news"
             />
-            <div className="flex items-center mb-3">
-              <span className="inline-flex items-center px-3 py-0.5 rounded-full text-xs font-bold leading-5 text-white font-display mr-2 capitalize bg-red-500">
-                News
-              </span>
-              <p className="font-mono text-xs font-normal opacity-75 text-black">
-                Sept 28th, 2024
-              </p>
-            </div>
-            <p className="font-display max-w-sm text-lg leading-tight">
-              <span className="link-underline link-underline-black text-gray-800">
-                New Rate Updated
+            <p className="text-md p-3">
+              <span className="font-semibold text-gray-700">
+                Popular Places for Canadians to Travel During the Winter
               </span>
             </p>
+            <div className="mb-3 p-3 text-xs">
+              <p className="font-semibold text-gray-600">Author Name</p>
+              <p className="text-gray-600">Sept 28th, 2024</p>
+            </div>
           </a>
         </li>
-        <li className="mb-6 bg-white p-3 shadow-lg rounded-lg">
+        <li className="mb-6 bg-gray-100 rounded-md hover:shadow-lg transition-all">
           <a href="#">
             <img
-              src="/placeholder.png"
-              className="w-full mb-4 rounded-lg shadow-none transition transition-shadow duration-500 ease-in-out group-hover:shadow-lg"
+              src="https://www.westernunion.com/blog/wp-content/uploads/2023/12/Popular-Places-for-Canadians-to-Travel-During-the-Winter.jpg"
+              className="w-full rounded-tl-md rounded-tr-md"
               alt="news"
             />
-            <div className="flex items-center mb-3">
-              <span className="inline-flex items-center px-3 py-0.5 rounded-full text-xs font-bold leading-5 text-white font-display mr-2 capitalize bg-red-500">
-                News
-              </span>
-              <p className="font-mono text-xs font-normal opacity-75 text-black">
-                Sept 28th, 2024
-              </p>
-            </div>
-            <p className="font-display max-w-sm text-lg leading-tight">
-              <span className="link-underline link-underline-black text-gray-800">
-                New Rate Updated
+            <p className="text-md p-3">
+              <span className="font-semibold text-gray-700">
+                Popular Places for Canadians to Travel During the Winter
               </span>
             </p>
-          </a>
-        </li>
-        <li className="mb-6 bg-white p-3 shadow-lg rounded-lg">
-          <a href="#">
-            <img
-              src="/placeholder.png"
-              className="w-full mb-4 rounded-lg shadow-none transition transition-shadow duration-500 ease-in-out group-hover:shadow-lg"
-              alt="news"
-            />
-            <div className="flex items-center mb-3">
-              <span className="inline-flex items-center px-3 py-0.5 rounded-full text-xs font-bold leading-5 text-white font-display mr-2 capitalize bg-red-500">
-                News
-              </span>
-              <p className="font-mono text-xs font-normal opacity-75 text-black">
-                Sept 28th, 2024
-              </p>
+            <div className="mb-3 p-3 text-xs">
+              <p className="font-semibold text-gray-600">Author Name</p>
+              <p className="text-gray-600">Sept 28th, 2024</p>
             </div>
-            <p className="font-display max-w-sm text-lg leading-tight">
-              <span className="link-underline link-underline-black text-gray-800">
-                New Rate Updated
-              </span>
-            </p>
-          </a>
-        </li>
-        <li className="mb-6 bg-white p-3 shadow-lg rounded-lg">
-          <a href="#">
-            <img
-              src="/placeholder.png"
-              className="w-full mb-4 rounded-lg shadow-none transition transition-shadow duration-500 ease-in-out group-hover:shadow-lg"
-              alt="news"
-            />
-            <div className="flex items-center mb-3">
-              <span className="inline-flex items-center px-3 py-0.5 rounded-full text-xs font-bold leading-5 text-white font-display mr-2 capitalize bg-red-500">
-                News
-              </span>
-              <p className="font-mono text-xs font-normal opacity-75 text-black">
-                Sept 28th, 2024
-              </p>
-            </div>
-            <p className="font-display max-w-sm text-lg leading-tight">
-              <span className="link-underline link-underline-black text-gray-800">
-                New Rate Updated
-              </span>
-            </p>
           </a>
         </li>
       </ul>
+      <div className="px-3">
+        <button
+          type="button"
+          className="bg-secondary p-4 rounded text-white flex justify-center space-x-2 items-center w-full md:w-[200px]"
+        >
+          <span>READ MORE</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </button>
+      </div>
     </div>
   );
 }

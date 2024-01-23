@@ -1,51 +1,31 @@
-import Image from "next/image";
-
 export default function Footer() {
   return (
     <footer>
-      <div className="section_gradient py-4 text-white">
+      <div className="bg-tertiary py-4 text-gray-700">
         <div className="container px-4 mx-auto">
           <div className="-mx-4 flex flex-wrap justify-between">
-            <div className="px-4 my-4 w-full xl:w-1/5">
-              <a href="/" className="block w-56 mb-10 bg-white rounded p-3">
-                <Image
-                  width={200}
-                  height={24}
-                  src="/main-logo.png"
-                  alt="Logo"
-                ></Image>
-              </a>
-              <p className="text-justify">
-                We consolidate a group of premier licensed money exchange and
-                remittance companies in Indonesia, to offer excellent service
-                and competitive rates for a wide range of currencies.
-              </p>
-            </div>
-
             <div className="px-4 my-4 w-full sm:w-auto">
               <div>
-                <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-800">
-                  Company
-                </h2>
+                <h2 className="inline-block text-lg font-bold">Company</h2>
               </div>
               <ul className="leading-8">
                 <li>
-                  <a href="#" className="hover:text-yellow-500">
+                  <a href="#" className="hover:text-primary">
                     About Us
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-yellow-500">
+                  <a href="#" className="hover:text-primary">
                     Terms &amp; Conditions
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-yellow-500">
+                  <a href="#" className="hover:text-primary">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-yellow-500">
+                  <a href="#" className="hover:text-primary">
                     Contact Us
                   </a>
                 </li>
@@ -53,28 +33,26 @@ export default function Footer() {
             </div>
             <div className="px-4 my-4 w-full sm:w-auto">
               <div>
-                <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-800">
-                  News
-                </h2>
+                <h2 className="inline-block text-lg font-bold">News</h2>
               </div>
               <ul className="leading-8">
                 <li>
-                  <a href="#" className="hover:text-yellow-500">
+                  <a href="#" className="hover:text-primary">
                     Dollar Rallies on Hawkish Fed
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-yellow-500">
+                  <a href="#" className="hover:text-primary">
                     Pound Falls to New Lows on Brexit
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-yellow-500">
+                  <a href="#" className="hover:text-primary">
                     Yen Gains as Risk Aversion Rises
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-yellow-500">
+                  <a href="#" className="hover:text-primary">
                     Aussie Dollar Slides After RBA Signals Cuts
                   </a>
                 </li>
@@ -82,13 +60,13 @@ export default function Footer() {
             </div>
             <div className="px-4 my-4 w-full sm:w-auto xl:w-1/5">
               <div>
-                <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-800">
+                <h2 className="inline-block text-lg font-bold">
                   Connect With Us
                 </h2>
               </div>
               <a
                 href="#"
-                className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-yellow-500 hover:border-yellow-500"
+                className="inline-flex items-center justify-center h-8 w-8 border border-gray-700 rounded-full mr-1"
               >
                 <svg
                   className="w-4 h-4 fill-current"
@@ -100,7 +78,7 @@ export default function Footer() {
               </a>
               <a
                 href="#"
-                className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-yellow-500 hover:border-yellow-500"
+                className="inline-flex items-center justify-center h-8 w-8 border border-gray-700 rounded-full mr-1"
               >
                 <svg
                   className="w-4 h-4 fill-current"
@@ -112,7 +90,7 @@ export default function Footer() {
               </a>
               <a
                 href="#"
-                className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-yellow-500 hover:border-yellow-500"
+                className="inline-flex items-center justify-center h-8 w-8 border border-gray-700 rounded-full mr-1"
               >
                 <svg
                   className="w-4 h-4 fill-current"
@@ -125,7 +103,7 @@ export default function Footer() {
 
               <a
                 href="#"
-                className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:text-yellow-500 hover:border-yellow-500"
+                className="inline-flex items-center justify-center h-8 w-8 border border-gray-700 rounded-full"
               >
                 <svg
                   className="w-4 h-4 fill-current"

@@ -1,14 +1,14 @@
-import Contact from "@/components/contact";
-import Features from "@/components/features";
-import Footer from "@/components/footer";
-import Gallery from "@/components/gallery";
-import Hero from "@/components/hero";
-import Navbar from "@/components/navbar";
-import News from "@/components/news";
-import RateForm from "@/components/rateForm";
-import RateTab from "@/components/rateTab";
-import SubscribeSection from "@/components/subscribe";
-import Title from "@/components/title";
+import Contact from "@/components/Contact";
+import Features from "@/components/Features";
+import Footer from "@/components/Footer";
+import Gallery from "@/components/Gallery";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
+import News from "@/components/News";
+import RateForm from "@/components/RateForm";
+import RateTab from "@/components/RateTab";
+import SubscribeSection from "@/components/Subscribe";
+import Title from "@/components/Title";
 
 export default function Home() {
   return (
@@ -50,7 +50,6 @@ export default function Home() {
       <section className="bg-gray-50">
         <Contact />
       </section>
-
       <section className="bg-gray-50">
         <Footer />
       </section>

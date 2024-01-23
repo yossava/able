@@ -1,4 +1,4 @@
-import ExchangeTable from "./exchangeTable";
+import ExchangeTable from "./ExchangeTable";
 
 export default function Hero() {
   return (

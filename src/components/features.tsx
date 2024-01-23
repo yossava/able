@@ -20,7 +20,7 @@ export default function Features() {
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             <div className="relative">
               <dt>
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-tertiary-500 text-white">
                   <img src="https://www.svgrepo.com/show/110441/good-idea.svg" />
                 </div>
                 <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
@@ -35,7 +35,7 @@ export default function Features() {
             </div>
             <div className="relative">
               <dt>
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-tertiary-500 text-white">
                   <img src="https://www.svgrepo.com/show/503138/webpack.svg" />
                 </div>
                 <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
@@ -51,7 +51,7 @@ export default function Features() {
             </div>
             <div className="relative">
               <dt>
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-tertiary-500 text-white">
                   <img src="https://www.svgrepo.com/show/470489/exchange.svg" />
                 </div>
                 <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
@@ -67,7 +67,7 @@ export default function Features() {
             </div>
             <div className="relative">
               <dt>
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-tertiary-500 text-white">
                   <img src="https://www.svgrepo.com/show/358326/transaction.svg" />
                 </div>
                 <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">

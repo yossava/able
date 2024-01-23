@@ -44,7 +44,7 @@ header#navbar.navbar-white .container {
 
 /* section start */
 .overlay {
-  background-color: hsla(219, 76%, 24%, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .section_gradient {
   background: url("/texture_bg.png"),
@@ -86,6 +86,9 @@ header#navbar.navbar-white .container {
 }
 .MuiFormControl-root.mb-5 {
   margin-bottom: 1.25rem !important;
+}
+.mySelect__value-container {
+  height: 35px;
 }
 /* mui override end */
 @layer utilities {

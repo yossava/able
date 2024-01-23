@@ -14,7 +14,7 @@ export default function RateTab() {
   };
 
   return (
-    <div className="rounded-lg bg-white text-gray-800 shadow-md p-3">
+    <div className="rounded-lg grow lg:max-w-lg bg-white text-gray-800 shadow-lg p-3 w-full">
       <Box sx={{ width: "100%", typography: "body1" }}>
         <TabContext value={value}>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
@@ -28,15 +28,17 @@ export default function RateTab() {
               <Tab label="PIK" value="2" />
             </TabList>
           </Box>
-          <TabPanel value="1">
+          <TabPanel value="1" className="p-0">
             <table className="table w-full text-center text-sm">
               <thead>
                 <tr>
                   <th
                     colSpan={4}
-                    className="bg-primary text-accent rounded-t-none border-b-0 whitespace-normal"
+                    className="text-gray-600 rounded-t-none py-5 border-b-0 whitespace-normal"
                   >
-                    <p className="text-sm font-bold">PT ABLE EXCHANGE</p>
+                    <p className="text-sm font-bold text-gray-800">
+                      PT ABLE EXCHANGE
+                    </p>
                     <p className="font-light text-xs mt-2 capitalize">
                       CENTRAL PARK MALL LT LG-205C, Letjen S. Parman No.28,
                       Jakarta 11470
@@ -45,15 +47,11 @@ export default function RateTab() {
                   </th>
                 </tr>
                 <tr>
-                  <th className="bg-primary text-accent rounded-t-none text-left pb-2 uppercase">
+                  <th className="rounded-t-none text-left pb-2 uppercase">
                     Currency
                   </th>
-                  <th className="bg-primary text-accent text-right pb-2 uppercase">
-                    Buy
-                  </th>
-                  <th className="bg-primary text-accent text-right pb-2 uppercase">
-                    Sell
-                  </th>
+                  <th className="text-right pb-2 uppercase">Buy</th>
+                  <th className="text-right pb-2 uppercase">Sell</th>
                 </tr>
               </thead>
               <tbody>
@@ -457,15 +455,17 @@ export default function RateTab() {
               </tbody>
             </table>
           </TabPanel>
-          <TabPanel value="2">
+          <TabPanel value="2" className="p-0">
             <table className="table w-full text-center text-sm">
               <thead>
                 <tr>
                   <th
                     colSpan={4}
-                    className="bg-primary text-accent rounded-t-none border-b-0 whitespace-normal"
+                    className="text-gray-600 py-5 rounded-t-none border-b-0 whitespace-normal"
                   >
-                    <p className="text-sm font-bold">PT ABLE EXCHANGE</p>
+                    <p className="text-sm font-bold text-gray-800">
+                      PT ABLE EXCHANGE
+                    </p>
                     <p className="font-light text-xs mt-2 capitalize">
                       Jalan The Golf Island Boulevard, Ruko The Beach Blok A
                       Nomor 19, Desa/Kelurahan Kamal Muara, Kec. Penjaringan,
@@ -475,15 +475,11 @@ export default function RateTab() {
                   </th>
                 </tr>
                 <tr>
-                  <th className="bg-primary text-accent rounded-t-none text-left pb-2 uppercase">
+                  <th className="rounded-t-none text-left pb-2 uppercase">
                     Currency
                   </th>
-                  <th className="bg-primary text-accent text-right pb-2 uppercase">
-                    Buy
-                  </th>
-                  <th className="bg-primary text-accent text-right pb-2 uppercase">
-                    Sell
-                  </th>
+                  <th className="text-right pb-2 uppercase">Buy</th>
+                  <th className="text-right pb-2 uppercase">Sell</th>
                 </tr>
               </thead>
               <tbody>

@@ -1,80 +1,118 @@
+import Title from "./Title";
+
 export default function FeaturesAlt() {
   return (
     <div>
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="lg:text-center">
-          <h2 className="font-heading mb-4 bg-yellow-500  px-4 py-2 rounded-lg md:w-64 md:mx-auto text-xs font-semibold tracking-widest text-white uppercase title-font">
-            Why choose us?
-          </h2>
-          <p className="font-heading mt-2 text-3xl leading-8 font-semibold tracking-tight text-gray-900 sm:text-4xl">
-            The Smarter Way to Exchange
-          </p>
-          <p className="mt-4 max-w-2xl text-lg text-gray-500 lg:mx-auto">
-            Our secure online platform allows you to exchange currency anytime,
-            anywhere. You can trust us to deliver convenience and competitive
-            prices.
-          </p>
+          <Title title="The Smarter Way to Exchange" />
         </div>
 
         <div className="mt-10">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-            <div className="relative rounded-lg p-5 shadow-lg bg-white">
+          <dl className="space-y-5 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 lg:grid-cols-3">
+            <div className="relative flex flex-col items-center p-5 bg-white shadow-md rounded hover:shadow-lg transition-all group">
+              <img
+                className="w-16 mb-5"
+                src="https://www.svgrepo.com/show/110441/good-idea.svg"
+              />
               <dt>
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                  <img src="https://www.svgrepo.com/show/110441/good-idea.svg" />
-                </div>
-                <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-tertiary-500 text-white"></div>
+                <p className="font-heading text-lg leading-6 font-bold text-gray-700 group-hover:text-primary transition-all">
                   Trust Our Expertise
                 </p>
               </dt>
-              <dd className="mt-2 ml-16 text-base text-gray-500">
+              <dd className="mt-2 text-base text-gray-700">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Maiores impedit perferendis suscipit eaque, iste dolor
                 cupiditate blanditiis ratione.
               </dd>
             </div>
-            <div className="relative rounded-lg p-5 shadow-lg bg-white">
+            <div className="relative flex flex-col items-center p-5 bg-white shadow-md rounded hover:shadow-lg transition-all group">
+              <img
+                className="w-16 mb-5"
+                src="https://www.svgrepo.com/show/503138/webpack.svg"
+              />
               <dt>
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                  <img src="https://www.svgrepo.com/show/503138/webpack.svg" />
-                </div>
-                <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-tertiary-500 text-white"></div>
+                <p className="font-heading text-lg leading-6 font-bold text-gray-700 group-hover:text-primary transition-all">
                   Get Personalized Service
                 </p>
               </dt>
-              <dd className="mt-2 ml-16 text-base text-gray-500">
+              <dd className="mt-2 text-base text-gray-700">
                 {" "}
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Maiores impedit perferendis suscipit eaque, iste dolor
                 cupiditate blanditiis ratione.
               </dd>
             </div>
-            <div className="relative rounded-lg p-5 shadow-lg bg-white">
+            <div className="relative flex flex-col items-center p-5 bg-white shadow-md rounded hover:shadow-lg transition-all group">
+              <img
+                className="w-16 mb-5"
+                src="https://www.svgrepo.com/show/470489/exchange.svg"
+              />
               <dt>
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                  <img src="https://www.svgrepo.com/show/470489/exchange.svg" />
-                </div>
-                <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-tertiary-500 text-white"></div>
+                <p className="font-heading text-lg leading-6 font-bold text-gray-700 group-hover:text-primary transition-all">
                   Access Competitive Rates
                 </p>
               </dt>
-              <dd className="mt-2 ml-16 text-base text-gray-500">
+              <dd className="mt-2 text-base text-gray-700">
                 {" "}
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Maiores impedit perferendis suscipit eaque, iste dolor
                 cupiditate blanditiis ratione.
               </dd>
             </div>
-            <div className="relative rounded-lg p-5 shadow-lg bg-white">
+            <div className="relative flex flex-col items-center p-5 bg-white shadow-md rounded hover:shadow-lg transition-all group">
+              <img
+                className="w-16 mb-5"
+                src="https://www.svgrepo.com/show/470489/exchange.svg"
+              />
               <dt>
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                  <img src="https://www.svgrepo.com/show/358326/transaction.svg" />
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-tertiary-500 text-white">
+                  ≈
                 </div>
-                <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
+                <p className="font-heading text-lg leading-6 font-bold text-gray-700 group-hover:text-primary transition-all">
                   Enjoy Convenient Online Transactions
                 </p>
               </dt>
-              <dd className="mt-2 ml-16 text-base text-gray-500">
+              <dd className="mt-2 text-base text-gray-700">
+                {" "}
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Maiores impedit perferendis suscipit eaque, iste dolor
+                cupiditate blanditiis ratione.
+              </dd>
+            </div>
+            <div className="relative flex flex-col items-center p-5 bg-white shadow-md rounded hover:shadow-lg transition-all group">
+              <img
+                className="w-16 mb-5"
+                src="https://www.svgrepo.com/show/503138/webpack.svg"
+              />
+              <dt>
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-tertiary-500 text-white"></div>
+                <p className="font-heading text-lg leading-6 font-bold text-gray-700 group-hover:text-primary transition-all">
+                  Get Personalized Service
+                </p>
+              </dt>
+              <dd className="mt-2 text-base text-gray-700">
+                {" "}
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Maiores impedit perferendis suscipit eaque, iste dolor
+                cupiditate blanditiis ratione.
+              </dd>
+            </div>
+            <div className="relative flex flex-col items-center p-5 bg-white shadow-md rounded hover:shadow-lg transition-all group">
+              <img
+                className="w-16 mb-5"
+                src="https://www.svgrepo.com/show/503138/webpack.svg"
+              />
+              <dt>
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-tertiary-500 text-white"></div>
+                <p className="font-heading text-lg leading-6 font-bold text-gray-700 group-hover:text-primary transition-all">
+                  Get Personalized Service
+                </p>
+              </dt>
+              <dd className="mt-2 text-base text-gray-700">
                 {" "}
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Maiores impedit perferendis suscipit eaque, iste dolor
