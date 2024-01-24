@@ -1,12 +1,31 @@
 "use client";
 
 import Image from "next/image";
+import { useEffect } from "react";
 import MobileMenu from "./MobileMenu";
 export default function NavbarAlt() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const navbar = document.getElementById("navbar");
+      if (navbar) {
+        if (window.scrollY > 20) {
+          navbar.classList.add("navbar-white");
+        } else {
+          navbar.classList.remove("navbar-white");
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <header
       id="navbar"
-      className="bg-white text-gray-700 text-md font-semibold fixed top-0 left-0 right-0 z-50 flex justify-center px-5"
+      className="text-white text-md font-semibold fixed top-0 left-0 right-0 z-50 flex justify-center px-5"
     >
       <div className="container">
         <nav className="flex justify-between items-center h-16">
