@@ -1,4 +1,5 @@
 import Hamburger from "hamburger-react";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function MobileMenu() {
@@ -16,30 +17,33 @@ export default function MobileMenu() {
         }`}
       >
         <nav className="">
-          <a
-            href="#"
+          <Link
+            onClick={() => setOpen(false)}
+            href="/"
             className="block py-5 border-b border-t border-gray-100 px-4 text-gray-700"
           >
             Home
-          </a>
+          </Link>
           <a
             href="#"
             className="block py-5 border-b border-gray-100 px-4 text-gray-700"
           >
             Rates
           </a>
-          <a
-            href="#"
+          <Link
+            onClick={() => setOpen(false)}
+            href="/blog"
             className="block py-5 border-b border-gray-100 px-4 text-gray-700"
           >
-            Contract
-          </a>
-          <a
-            href="#"
+            Blog
+          </Link>
+          <Link
+            onClick={() => setOpen(false)}
+            href="/contact"
             className="block py-5 border-b border-gray-100 px-4 text-gray-700"
           >
-            News
-          </a>
+            Contact
+          </Link>
           <div className="p-3 flex flex-col space-y-3 mt-10">
             <button className="bg-tertiary p-3 w-full rounded text-gray-700">
               REGISTER

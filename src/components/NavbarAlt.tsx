@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect } from "react";
 import MobileMenu from "./MobileMenu";
 export default function NavbarAlt() {
@@ -40,9 +41,9 @@ export default function NavbarAlt() {
             </a>
             <ul className="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12 ">
               <li className="group relative pt-4 pb-4 has-child">
-                <a className="hover:text-tertiary transition-all" href="/">
+                <Link className="hover:text-tertiary transition-all" href="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="pt-4 pb-4">
                 <a className="hover:text-tertiary transition-all" href="/">
@@ -50,14 +51,20 @@ export default function NavbarAlt() {
                 </a>
               </li>
               <li className="pt-4 pb-4">
-                <a className="hover:text-tertiary transition-all" href="/">
-                  Contract
-                </a>
+                <Link
+                  className="hover:text-tertiary transition-all"
+                  href="/blog"
+                >
+                  Blog
+                </Link>
               </li>
               <li className="pt-4 pb-4">
-                <a className="hover:text-tertiary transition-all" href="/">
-                  News
-                </a>
+                <Link
+                  className="hover:text-tertiary transition-all"
+                  href="/contact"
+                >
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
