@@ -91,6 +91,17 @@ header#navbar.navbar-white .container {
   height: 35px;
 }
 /* mui override end */
+/* blog */
+.page-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.wraper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+}
+/* blog end */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
