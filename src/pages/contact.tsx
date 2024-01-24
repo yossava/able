@@ -33,7 +33,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="office-location py-section bg-white p-3 pt-10 lg:pt-20">
+      <div className="office-location py-section bg-white p-3 pt-10 lg:pt-20 text-gray-700">
         <div className="mx-auto max-w-5xl">
           <div className="grid md:grid-cols-2 gap-8">
             <div className="single-office">
@@ -209,7 +209,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="contact-map pb-section bg-white px-3 pb-20 pt-10">
+      <div className="contact-map pb-section bg-white px-3 pb-20 pt-10 text-gray-700">
         <div className="mx-auto max-w-5xl">
           <div className="grid md:grid-cols-2 gap-x-8">
             <div className="contact-form lg:pr-10">
