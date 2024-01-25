@@ -25,12 +25,14 @@ export default function MobileMenu() {
             Home
           </Link>
           <Link
+            onClick={() => setOpen(false)}
             href="/exchange"
             className="block py-5 border-b border-gray-100 px-4 text-gray-700"
           >
             Rates
           </Link>
           <Link
+            onClick={() => setOpen(false)}
             href="/service"
             className="block py-5 border-b border-gray-100 px-4 text-gray-700"
           >
