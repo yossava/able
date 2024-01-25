@@ -8,7 +8,7 @@ export default function MobileMenu() {
   return (
     <>
       <button className="block lg:hidden z-50" onClick={() => setOpen(!open)}>
-        <Hamburger color="#F4D41C" size={28} />
+        <Hamburger toggled={open} toggle={setOpen} color="#F4D41C" size={28} />
       </button>
 
       <div
