@@ -1,6 +1,6 @@
 function SubscribeSection() {
   return (
-    <div className="flex container mx-auto text-gray-700">
+    <div className="flex container mx-auto text-gray-700 px-5">
       <div className="w-2/3 pr-10">
         <h2 className="text-xl font-semibold">Subscribe to our Newsletter</h2>
         <p className="text-gray-500 text-sm">

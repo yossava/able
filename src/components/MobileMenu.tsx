@@ -24,12 +24,18 @@ export default function MobileMenu() {
           >
             Home
           </Link>
-          <a
-            href="#"
+          <Link
+            href="/exchange"
             className="block py-5 border-b border-gray-100 px-4 text-gray-700"
           >
             Rates
-          </a>
+          </Link>
+          <Link
+            href="/service"
+            className="block py-5 border-b border-gray-100 px-4 text-gray-700"
+          >
+            Services
+          </Link>
           <Link
             onClick={() => setOpen(false)}
             href="/blog"

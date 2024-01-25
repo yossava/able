@@ -67,11 +67,11 @@ export default function Blog() {
                         </a>{" "}
                       </li>
                       <li className="">
-                        <i className="relative top-0 mr-[3px] text-[15px] text-[#666]  fi flaticon-comment-white-oval-bubble"></i>
+                        <i className="relative top-0 mr-[3px] text-sm text-[#666]  fi flaticon-comment-white-oval-bubble"></i>
                         Comments 35{" "}
                       </li>
                       <li className="">
-                        <i className="relative top-0 mr-[3px] text-[15px] text-[#666]  fi flaticon-calendar-1"></i>
+                        <i className="relative top-0 mr-[3px] text-sm text-[#666]  fi flaticon-calendar-1"></i>
                         24 Jun 2023
                       </li>
                     </ul>
@@ -84,7 +84,7 @@ export default function Blog() {
                       8 Mistakes Founders Make When Starting a Business.
                     </a>
                   </h3>
-                  <p className="text-[#666] leading-[24px] text-[16px] mb-[20px]">
+                  <p className="text-[#666] leading-[24px] text-sm mb-[20px]">
                     Consulting is a great career path if you want to build a
                     broad skill set that includes everything from critical
                     thinking and strategic planning to communications. If you
@@ -92,9 +92,23 @@ export default function Blog() {
                   </p>
                   <a
                     href="/"
-                    className="text-[#666] uppercase underline font-base-font text-[15px] font-semibold transition-all hover:text-secondary"
+                    className="text-gray-700 text-sm flex  items-center font-semibold transition-all hover:text-secondary"
                   >
-                    READ MORE...
+                    <span>Read More</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-4 h-4"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
                   </a>
                 </div>
                 <div className="grid grid-cols-2 gap-3">
@@ -115,35 +129,12 @@ export default function Blog() {
                     </div>
                     <div className="my-2">
                       <ul className="hidden lg:flex">
-                        <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#666]">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                            className="w-4 h-4 inline mr-2"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
-                            />
-                          </svg>
-                          By{" "}
-                          <a
-                            className="text-[#232f4b] transition-all hover:text-secondary"
-                            href="#"
-                          >
-                            Jenny Watson
-                          </a>{" "}
-                        </li>
-                        <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#666] ml-[20px] pl-[20px] relative before:absolute before:left-0 before:top-[50%] before:w-[7px] before:h-[7px] before:rounded-[50%] before:content-[''] before:translate before:-translate-y-1/2 before:bg-tertiary z-10 before:-z-10">
-                          <i className="relative top-0 mr-[3px] text-[15px] text-[#666]  fi flaticon-comment-white-oval-bubble"></i>
+                        <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-gray-500 pl-[20px] relative before:absolute before:left-0 before:top-[50%] before:w-[7px] before:h-[7px] before:rounded-[50%] before:content-[''] before:translate before:-translate-y-1/2 before:bg-tertiary z-10 before:-z-10">
+                          <i className="relative top-0 mr-[3px] text-sm text-[#666]  fi flaticon-comment-white-oval-bubble"></i>
                           Comments 35{" "}
                         </li>
                         <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#666] ml-[20px] pl-[20px] relative before:absolute before:left-0 before:top-[50%] before:w-[7px] before:h-[7px] before:rounded-[50%] before:content-[''] before:translate before:-translate-y-1/2 before:bg-tertiary z-10 before:-z-10">
-                          <i className="relative top-0 mr-[3px] text-[15px] text-[#666]  fi flaticon-calendar-1"></i>
+                          <i className="relative top-0 mr-[3px] text-sm text-[#666]  fi flaticon-calendar-1"></i>
                           24 Jun 2023
                         </li>
                       </ul>
@@ -156,15 +147,29 @@ export default function Blog() {
                         Lorem ipsum dolor sit amet.
                       </a>
                     </h3>
-                    <p className="text-[#666] leading-[24px] text-[16px] mb-[20px]">
+                    <p className="text-[#666] leading-[24px] text-sm mb-[20px]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Corrupti, nemo.
                     </p>
                     <a
                       href="/"
-                      className="text-[#666] uppercase underline font-base-font text-[15px] font-semibold transition-all hover:text-secondary"
+                      className="text-gray-700 text-sm flex  items-center font-semibold transition-all hover:text-secondary"
                     >
-                      READ MORE...
+                      <span>Read More</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-4 h-4"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                        />
+                      </svg>
                     </a>
                   </div>
                   <div className="relative bg-white p-2 rounded lg:p-4">
@@ -184,35 +189,12 @@ export default function Blog() {
                     </div>
                     <div className="my-2">
                       <ul className="hidden lg:flex">
-                        <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#666]">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                            className="w-4 h-4 inline mr-2"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
-                            />
-                          </svg>
-                          By{" "}
-                          <a
-                            className="text-[#232f4b] transition-all hover:text-secondary"
-                            href="#"
-                          >
-                            Jenny Watson
-                          </a>{" "}
-                        </li>
-                        <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#666] ml-[20px] pl-[20px] relative before:absolute before:left-0 before:top-[50%] before:w-[7px] before:h-[7px] before:rounded-[50%] before:content-[''] before:translate before:-translate-y-1/2 before:bg-tertiary z-10 before:-z-10">
-                          <i className="relative top-0 mr-[3px] text-[15px] text-[#666]  fi flaticon-comment-white-oval-bubble"></i>
+                        <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-gray-500 pl-[20px] relative before:absolute before:left-0 before:top-[50%] before:w-[7px] before:h-[7px] before:rounded-[50%] before:content-[''] before:translate before:-translate-y-1/2 before:bg-tertiary z-10 before:-z-10">
+                          <i className="relative top-0 mr-[3px] text-sm text-[#666]  fi flaticon-comment-white-oval-bubble"></i>
                           Comments 35{" "}
                         </li>
                         <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#666] ml-[20px] pl-[20px] relative before:absolute before:left-0 before:top-[50%] before:w-[7px] before:h-[7px] before:rounded-[50%] before:content-[''] before:translate before:-translate-y-1/2 before:bg-tertiary z-10 before:-z-10">
-                          <i className="relative top-0 mr-[3px] text-[15px] text-[#666]  fi flaticon-calendar-1"></i>
+                          <i className="relative top-0 mr-[3px] text-sm text-[#666]  fi flaticon-calendar-1"></i>
                           24 Jun 2023
                         </li>
                       </ul>
@@ -225,15 +207,29 @@ export default function Blog() {
                         Lorem ipsum dolor sit amet.
                       </a>
                     </h3>
-                    <p className="text-[#666] leading-[24px] text-[16px] mb-[20px]">
+                    <p className="text-[#666] leading-[24px] text-sm mb-[20px]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Corrupti, nemo.
                     </p>
                     <a
                       href="/"
-                      className="text-[#666] uppercase underline font-base-font text-[15px] font-semibold transition-all hover:text-secondary"
+                      className="text-gray-700 text-sm flex  items-center font-semibold transition-all hover:text-secondary"
                     >
-                      READ MORE...
+                      <span>Read More</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-4 h-4"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                        />
+                      </svg>
                     </a>
                   </div>
                   <div className="relative bg-white p-2 rounded lg:p-4">
@@ -253,35 +249,12 @@ export default function Blog() {
                     </div>
                     <div className="my-2">
                       <ul className="hidden lg:flex">
-                        <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#666]">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                            className="w-4 h-4 inline mr-2"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
-                            />
-                          </svg>
-                          By{" "}
-                          <a
-                            className="text-[#232f4b] transition-all hover:text-secondary"
-                            href="#"
-                          >
-                            Jenny Watson
-                          </a>{" "}
-                        </li>
-                        <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#666] ml-[20px] pl-[20px] relative before:absolute before:left-0 before:top-[50%] before:w-[7px] before:h-[7px] before:rounded-[50%] before:content-[''] before:translate before:-translate-y-1/2 before:bg-tertiary z-10 before:-z-10">
-                          <i className="relative top-0 mr-[3px] text-[15px] text-[#666]  fi flaticon-comment-white-oval-bubble"></i>
+                        <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-gray-500 pl-[20px] relative before:absolute before:left-0 before:top-[50%] before:w-[7px] before:h-[7px] before:rounded-[50%] before:content-[''] before:translate before:-translate-y-1/2 before:bg-tertiary z-10 before:-z-10">
+                          <i className="relative top-0 mr-[3px] text-sm text-[#666]  fi flaticon-comment-white-oval-bubble"></i>
                           Comments 35{" "}
                         </li>
                         <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#666] ml-[20px] pl-[20px] relative before:absolute before:left-0 before:top-[50%] before:w-[7px] before:h-[7px] before:rounded-[50%] before:content-[''] before:translate before:-translate-y-1/2 before:bg-tertiary z-10 before:-z-10">
-                          <i className="relative top-0 mr-[3px] text-[15px] text-[#666]  fi flaticon-calendar-1"></i>
+                          <i className="relative top-0 mr-[3px] text-sm text-[#666]  fi flaticon-calendar-1"></i>
                           24 Jun 2023
                         </li>
                       </ul>
@@ -294,15 +267,29 @@ export default function Blog() {
                         Lorem ipsum dolor sit amet.
                       </a>
                     </h3>
-                    <p className="text-[#666] leading-[24px] text-[16px] mb-[20px]">
+                    <p className="text-[#666] leading-[24px] text-sm mb-[20px]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Corrupti, nemo.
                     </p>
                     <a
                       href="/"
-                      className="text-[#666] uppercase underline font-base-font text-[15px] font-semibold transition-all hover:text-secondary"
+                      className="text-gray-700 text-sm flex  items-center font-semibold transition-all hover:text-secondary"
                     >
-                      READ MORE...
+                      <span>Read More</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-4 h-4"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                        />
+                      </svg>
                     </a>
                   </div>
                   <div className="relative bg-white p-2 rounded lg:p-4">
@@ -322,35 +309,12 @@ export default function Blog() {
                     </div>
                     <div className="my-2">
                       <ul className="hidden lg:flex">
-                        <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#666]">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                            className="w-4 h-4 inline mr-2"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
-                            />
-                          </svg>
-                          By{" "}
-                          <a
-                            className="text-[#232f4b] transition-all hover:text-secondary"
-                            href="#"
-                          >
-                            Jenny Watson
-                          </a>{" "}
-                        </li>
-                        <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#666] ml-[20px] pl-[20px] relative before:absolute before:left-0 before:top-[50%] before:w-[7px] before:h-[7px] before:rounded-[50%] before:content-[''] before:translate before:-translate-y-1/2 before:bg-tertiary z-10 before:-z-10">
-                          <i className="relative top-0 mr-[3px] text-[15px] text-[#666]  fi flaticon-comment-white-oval-bubble"></i>
+                        <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-gray-500 pl-[20px] relative before:absolute before:left-0 before:top-[50%] before:w-[7px] before:h-[7px] before:rounded-[50%] before:content-[''] before:translate before:-translate-y-1/2 before:bg-tertiary z-10 before:-z-10">
+                          <i className="relative top-0 mr-[3px] text-sm text-[#666]  fi flaticon-comment-white-oval-bubble"></i>
                           Comments 35{" "}
                         </li>
                         <li className="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#666] ml-[20px] pl-[20px] relative before:absolute before:left-0 before:top-[50%] before:w-[7px] before:h-[7px] before:rounded-[50%] before:content-[''] before:translate before:-translate-y-1/2 before:bg-tertiary z-10 before:-z-10">
-                          <i className="relative top-0 mr-[3px] text-[15px] text-[#666]  fi flaticon-calendar-1"></i>
+                          <i className="relative top-0 mr-[3px] text-sm text-[#666]  fi flaticon-calendar-1"></i>
                           24 Jun 2023
                         </li>
                       </ul>
@@ -363,15 +327,29 @@ export default function Blog() {
                         Lorem ipsum dolor sit amet.
                       </a>
                     </h3>
-                    <p className="text-[#666] leading-[24px] text-[16px] mb-[20px]">
+                    <p className="text-[#666] leading-[24px] text-sm mb-[20px]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Corrupti, nemo.
                     </p>
                     <a
                       href="/"
-                      className="text-[#666] uppercase underline font-base-font text-[15px] font-semibold transition-all hover:text-secondary"
+                      className="text-gray-700 text-sm flex  items-center font-semibold transition-all hover:text-secondary"
                     >
-                      READ MORE...
+                      <span>Read More</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-4 h-4"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                        />
+                      </svg>
                     </a>
                   </div>
                 </div>
@@ -458,7 +436,7 @@ export default function Blog() {
                     <div className="relative">
                       <input
                         type="text"
-                        className="form-control w-full text-[16px] rounded-[5px] h-[70px] border-0
+                        className="form-control w-full text-sm rounded-[5px] h-[70px] border-0
                                             pl-[10px] focus:outline-0 focus:shadow-none bg-[rgba(55,87,247,0.05)]
                                             text-[#212529]"
                         placeholder="Search Post.."
@@ -498,27 +476,21 @@ export default function Blog() {
                     Categories
                   </h3>
                   <ul>
-                    <li className="text-[16px] mt-[15px] group transition-all pt-[6px] relative">
+                    <li className="text-sm mt-[15px] group transition-all pt-[6px] relative">
                       <a
                         href="/"
-                        className="text-[#474f62] group hover:text-secondary text-[19px] font-bold
-                                             block transition-all"
+                        className="text-[#474f62] group hover:text-secondary text-lg font-bold block transition-all"
                       >
                         Blockchain Consulting{" "}
-                        <span
-                          className="lg:inline-block hidden w-[30px]  h-[30px] leading-[30px]
-                                                bg-[#F3F3F3]  transition-all absolute right-0
-                                                text-center rounded-[50%] text-[18px]"
-                        >
+                        <span className="lg:inline-block hidden w-[30px]  h-[30px] leading-[30px]    bg-[#F3F3F3]  transition-all absolute right-0    text-center rounded-[50%] text-[18px]">
                           5
                         </span>
                       </a>
                     </li>
-                    <li className="text-[16px] mt-[15px] group transition-all pt-[6px] relative">
+                    <li className="text-sm mt-[15px] group transition-all pt-[6px] relative">
                       <a
                         href="/"
-                        className="text-[#474f62] group hover:text-secondary text-[19px] font-bold
-                                             block transition-all"
+                        className="text-[#474f62] group hover:text-secondary text-lg font-bold block transition-all"
                       >
                         Commodity Traders
                         <span className="lg:inline-block hidden w-[30px] h-[30px] leading-[30px] bg-[#F3F3F3]  transition-all absolute right-0 text-center rounded-[50%] text-[18px]">
@@ -526,11 +498,10 @@ export default function Blog() {
                         </span>
                       </a>
                     </li>
-                    <li className="text-[16px] mt-[15px] group transition-all pt-[6px] relative">
+                    <li className="text-sm mt-[15px] group transition-all pt-[6px] relative">
                       <a
                         href="/"
-                        className="text-[#474f62] group hover:text-secondary text-[19px] font-bold
-                                             block transition-all"
+                        className="text-[#474f62] group hover:text-secondary text-lg font-bold block transition-all"
                       >
                         Financial Planning
                         <span className="lg:inline-block hidden w-[30px] h-[30px] leading-[30px] bg-[#F3F3F3]  transition-all absolute right-0 text-center rounded-[50%] text-[18px]">
@@ -538,11 +509,10 @@ export default function Blog() {
                         </span>
                       </a>
                     </li>
-                    <li className="text-[16px] mt-[15px] group transition-all pt-[6px] relative">
+                    <li className="text-sm mt-[15px] group transition-all pt-[6px] relative">
                       <a
                         href="/"
-                        className="text-[#474f62] group hover:text-secondary text-[19px] font-bold
-                                             block transition-all"
+                        className="text-[#474f62] group hover:text-secondary text-lg font-bold block transition-all"
                       >
                         Investment Consulting
                         <span className="lg:inline-block hidden w-[30px] h-[30px] leading-[30px] bg-[#F3F3F3] absolute right-0 text-center rounded-[50%] text-[18px]">
@@ -550,11 +520,10 @@ export default function Blog() {
                         </span>
                       </a>
                     </li>
-                    <li className="text-[16px] mt-[15px] group transition-all pt-[6px] relative">
+                    <li className="text-sm mt-[15px] group transition-all pt-[6px] relative">
                       <a
                         href="/"
-                        className="text-[#474f62] group hover:text-secondary text-[19px] font-bold
-                                             block transition-all"
+                        className="text-[#474f62] group hover:text-secondary text-lg font-bold block transition-all"
                       >
                         Online Banking Consulting
                         <span className="lg:inline-block hidden w-[30px] h-[30px] leading-[30px] bg-[#F3F3F3] transition-all absolute right-0 text-center rounded-[50%] text-[18px]">
@@ -562,11 +531,10 @@ export default function Blog() {
                         </span>
                       </a>
                     </li>
-                    <li className="text-[16px] mt-[15px] group transition-all pt-[6px] relative">
+                    <li className="text-sm mt-[15px] group transition-all pt-[6px] relative">
                       <a
                         href="/"
-                        className="text-[#474f62] group hover:text-secondary text-[19px] font-bold
-                                             block transition-all"
+                        className="text-[#474f62] group hover:text-secondary text-lg font-bold block transition-all"
                       >
                         Personal Consulting Advice
                         <span className="lg:inline-block hidden w-[30px] h-[30px] leading-[30px] bg-[#F3F3F3]  transition-all absolute right-0 text-center rounded-[50%] text-[18px]">
@@ -600,7 +568,7 @@ export default function Blog() {
                         <h4>
                           <a
                             href="/"
-                            className="inline-block  font-medium text-[#232f4b] text-[19px] transition-all hover:text-secondary"
+                            className="inline-block  font-medium text-[#232f4b] text-lg transition-all hover:text-secondary"
                           >
                             The Internet tend to repeat predefined chunks.
                           </a>
@@ -622,8 +590,7 @@ export default function Blog() {
                         <h4>
                           <a
                             href="/"
-                            className="inline-block  font-medium text-[#232f4b] text-[19px]
-                                                    transition-all hover:text-secondary"
+                            className="inline-block  font-medium text-[#232f4b] text-lg        transition-all hover:text-secondary"
                           >
                             Have evolved over the years sometimes accident.
                           </a>
@@ -645,8 +612,7 @@ export default function Blog() {
                         <h4>
                           <a
                             href="/"
-                            className="inline-block  font-medium text-[#232f4b] text-[19px]
-                                                    transition-all hover:text-secondary"
+                            className="inline-block  font-medium text-[#232f4b] text-lg        transition-all hover:text-secondary"
                           >
                             The standard chunk of used since the interested.
                           </a>
@@ -780,7 +746,7 @@ export default function Blog() {
                       <a
                         href="#"
                         className="bg-[#ecf4fb] rounded-[5px] 
-                    py-[5px] px-[18px] text-[15px] 
+                    py-[5px] px-[18px] text-sm 
                     text-[#060530] transition-all hover:bg-tertiary
                      hover:text-white"
                       >
@@ -791,7 +757,7 @@ export default function Blog() {
                       <a
                         href="#"
                         className="bg-[#ecf4fb] rounded-[5px] py-[5px]
-                     px-[18px] text-[15px] text-[#060530] 
+                     px-[18px] text-sm text-[#060530] 
                      transition-all hover:bg-tertiary hover:text-white"
                       >
                         Planning
@@ -801,7 +767,7 @@ export default function Blog() {
                       <a
                         href="#"
                         className="bg-[#ecf4fb] rounded-[5px] py-[5px] 
-                    px-[18px] text-[15px] text-[#060530] transition-all hover:bg-tertiary
+                    px-[18px] text-sm text-[#060530] transition-all hover:bg-tertiary
                     hover:text-white"
                       >
                         Marketing
@@ -811,7 +777,7 @@ export default function Blog() {
                       <a
                         href="#"
                         className="bg-[#ecf4fb] rounded-[5px] py-[5px] 
-                    px-[18px] text-[15px] text-[#060530] transition-all
+                    px-[18px] text-sm text-[#060530] transition-all
                      hover:bg-tertiary hover:text-white"
                       >
                         Strategy
@@ -821,7 +787,7 @@ export default function Blog() {
                       <a
                         href="#"
                         className="bg-[#ecf4fb] rounded-[5px] py-[5px] 
-                    px-[18px] text-[15px]  text-[#060530] transition-all
+                    px-[18px] text-sm  text-[#060530] transition-all
                      hover:bg-tertiary hover:text-white"
                       >
                         Finance
@@ -831,7 +797,7 @@ export default function Blog() {
                       <a
                         href="#"
                         className="bg-[#ecf4fb] rounded-[5px] py-[5px] px-[18px] 
-                    text-[15px] text-[#060530] transition-all
+                    text-sm text-[#060530] transition-all
                      hover:bg-tertiary hover:text-white"
                       >
                         Solution
@@ -841,7 +807,7 @@ export default function Blog() {
                       <a
                         href="#"
                         className="bg-[#ecf4fb] rounded-[5px] py-[5px]
-                     px-[18px] text-[15px] text-[#060530]
+                     px-[18px] text-sm text-[#060530]
                       transition-all hover:bg-tertiary hover:text-white"
                       >
                         Corporate
@@ -851,7 +817,7 @@ export default function Blog() {
                       <a
                         href="#"
                         className="bg-[#ecf4fb] rounded-[5px] py-[5px]
-                     px-[18px] text-[15px] text-[#060530] 
+                     px-[18px] text-sm text-[#060530] 
                      transition-all hover:bg-tertiary hover:text-white"
                       >
                         Idea
@@ -860,7 +826,7 @@ export default function Blog() {
                     <li className="float-left mr-[8px] mb-[12px]">
                       <a
                         href="#"
-                        className="bg-[#ecf4fb] rounded-[5px] py-[5px] px-[18px] text-[15px] 
+                        className="bg-[#ecf4fb] rounded-[5px] py-[5px] px-[18px] text-sm 
                     text-[#060530] transition-all hover:bg-tertiary hover:text-white"
                       >
                         Market Reserch

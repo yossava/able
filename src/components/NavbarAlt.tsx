@@ -46,9 +46,20 @@ export default function NavbarAlt() {
                 </Link>
               </li>
               <li className="pt-4 pb-4">
-                <a className="hover:text-tertiary transition-all" href="/">
+                <Link
+                  className="hover:text-tertiary transition-all"
+                  href="/exchange"
+                >
                   Rates
-                </a>
+                </Link>
+              </li>
+              <li className="pt-4 pb-4">
+                <Link
+                  className="hover:text-tertiary transition-all"
+                  href="/service"
+                >
+                  Services
+                </Link>
               </li>
               <li className="pt-4 pb-4">
                 <Link
